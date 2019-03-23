@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/giohang.css">
+    <link rel="stylesheet" href="../styles/style.css" />
+
+  </head>
+  <body>
+      
+  <div class="header">
+    <nav class="navbar navbar-expand-md navbar-dark " style="background-color: #0e1310;opacity: 0.7;">
+      <a class="navbar-brand" href="#"><img src="../assets/images/header-logo.png" alt=""></a>
+      <!-- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button> -->
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-float float-left ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">TRANG TIN <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">NÔNG SẢN</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">GIỎ HÀNG</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">THÚY TRẦN</a>
+          </li>
+          <li>
+            <i class="fa fa-user active fa-1" aria-hidden="true"></i>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <div class="container">
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+              <tr>
+                <th style="width:50%">Sản Phẩm</th>
+                <th style="width:10%">Đơn Giá</th>
+                <th style="width:8%">Số lượng</th>
+                <th style="width:22%" class="text-center">Tổng</th>
+                <th style="width:10%"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-th="Product">
+                  <div class="row">
+                    <div class="col-sm-2 hidden-xs"><img src="http://lorempixel.com/90/100" alt="..." class="img-responsive" /></div>
+                    <div class="col-sm-10">
+                      <h4 class="nomargin">Rượu làng Vân</h4>
+                    </div>
+                  </div>
+                </td>
+                <td data-th="Price">$1.99</td>
+                <td data-th="Quantity">
+                  <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td data-th="Subtotal" class="text-center">1.99</td>
+                <td class="actions" data-th="">
+                  <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                  <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <!-- <tr class="visible-xs">
+                <td class="text-center"><strong>Total 1.99</strong></td>
+              </tr> -->
+              <tr>
+                <td></td>
+                <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+                <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+              </tr>
+            </tfoot>
+          </table>
+    </div>
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-logo">
+              <img src="../assets/images/footer-logo.png" alt="" />
+            </div>
+            <div class="col-md-4 about">
+              <div class="row">
+                <p>BACGIANGFARM</p>
+              </div>
+              <div class="row">
+                <a href="#" class="about">Giới thiệu</a>
+                <a href="#" class="about">Chính sách</a>
+              </div>
+            </div>
+            <div class="col-md-4 footer-follow">
+              <div class="row">
+                <p>FOLLOW US</p>
+              </div>
+              <div class="row">
+                <div class="footer-top-icons">
+                  <a href="#"><i class="fab fa-facebook    "></i></a>
+                  <a href="#"><i class="fab fa-google-plus    "></i></a>
+                  <a href="#"><i class="fab fa-twitter    "></i></a>
+                  <a href="#"><i class="fab fa-linkedin    "></i></a>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="footer-bottom d-flex p-auto justify-content-around align-items-center">
+              <p>Liên hệ:</p>
+              <i class="fa fa-phone" aria-hidden="true"> 0972513172</i>
+              <i class="fa fa-envelope-open" aria-hidden="true"> thuytranbn@hotmail.com</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
